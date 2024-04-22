@@ -1,5 +1,10 @@
 export class Player {
-  constructor() {
+  constructor(name) { 
+    this.name = name
     
   }
   }
+
+  const jugador1 = new Player()
+
+  console.log(new Player())
